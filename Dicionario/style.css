@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(68, 36, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nome{
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.texto1{
+    display: flex;
+    padding: 20px;
+}
+
+.palavra{
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: grey;
+    background-color: grey;
+    padding: 10px;
+    
+    font-size: 30px;
+}
+main{
+    display: block;
+}
+
+section{
+    margin-top: 3   0px;
+}
+
+#modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: none;
+    justify-content: pedro;
+    flex-direction: column;
+    position: fixed;
+    width: 50vw;
+    height: 50vh;
+    padding: 17px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.modalBtn{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 100%;
+}
+
+.div_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.frase_dialogo{
+    padding: 40px;
+}
+
+.caixa_dialogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: gray;
+    height: 500px;
+    width: 800px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.sec_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunas{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    width: 700px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.palavra:hover{
+    transition: 100ms;
+    transform: scale(1.03);
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+
+#pedro2{
+    padding: 10px;
+    margin-left: 15px;
+    
+}
+
+.backdrop {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.155);
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+}
+
+.audioBtn_ing, .audioBtn_br{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.imgBtn{
+    height: 30px;
+    width: 30px;
+}
+.audio_ing, .audio_br{
+    display: none;
+
+}
